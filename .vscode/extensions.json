@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "eg2.tslint",
+        "orta.vscode-jest",
+        "msjsdiag.debugger-for-chrome",
+        "eamodio.gitlens"
+    ]
+}
