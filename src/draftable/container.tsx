@@ -16,7 +16,7 @@ export function mapDispatchToProps(dispatch: Dispatch<actions.EnthusiasmAction>)
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Draftable);
+// export default connect(mapStateToProps, mapDispatchToProps)(Draftable);
 
 // import * as React from ‘react’;
 // export interface StatefulCounterProps {
