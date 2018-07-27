@@ -6,5 +6,5 @@
     "typescript.updateImportsOnFileMove.enabled": "always",
     "git.autofetch": true,
     "tslint.autoFixOnSave": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
 }

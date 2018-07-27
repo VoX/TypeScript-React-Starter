@@ -1,8 +1,16 @@
 import * as React from 'react';
 import './App.css';
-import Hello from './components/Hello';
+import Draftable from './draftable/Draftable';
+import { DisplayDraftable } from './draftable/DisplayDraftable';
 
 const logo = require('./logo.svg');
+const draftable: DisplayDraftable = {
+  DraftableId: 1,
+  ImageUrl: 'https://d327rxwuxd0q0c.cloudfront.net/m/mlb_65/392121.png',
+  Name: 'Someone',
+  Position: 'P',
+  Salary: 41847
+};
 
 function App() {
   return (
@@ -14,7 +22,7 @@ function App() {
       <p className="App-intro">
         To get started, edit <code>src/App.tsx</code> and save to reload.
       </p>
-      <Hello name="TypeScript" />
+      <Draftable draftable={draftable} />
     </div>
   );
 }
